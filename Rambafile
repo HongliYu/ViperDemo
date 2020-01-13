@@ -1,0 +1,20 @@
+### Headers settings
+company: Momox GmbH
+
+### Xcode project settings
+project_name: ViperDemo
+xcodeproj_path: ViperDemo.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ViperDemo
+
+# The file path for new modules
+project_file_path: ViperDemo/Modules
+
+# The Xcode group path to new modules
+project_group_path: ViperDemo/Modules
+
+### Templates
+templates:
+- {name: b2b_swift_viper, local: '/Users/hongliyu/source/ViperDemo/b2b_swift_viper/'}

@@ -1,0 +1,11 @@
+strings:
+  inputs: ViperDemo/Resources/de.lproj/Localizable.strings
+  outputs:
+    - templateName: flat-swift4
+      output: ViperDemo/Resources/L10n-Constants.swift
+xcassets:
+  inputs:
+    - ViperDemo/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: ViperDemo/Resources/Assets-images.swift

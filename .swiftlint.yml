@@ -1,0 +1,24 @@
+excluded:
+  - Pods
+line_length: 180
+cyclomatic_complexity: 15
+function_parameter_count: 10
+nesting: 
+  type_level: 3
+type_body_length:
+  warning: 300
+  error: 400 
+file_length:
+  warning: 500
+  error: 1200
+type_name:
+  min_length: 
+    warning: 2
+  max_length: 
+    warning: 60
+    error: 80
+identifier_name:
+  min_length: 
+    warning: 2
+    error: 2
+reporter: "xcode" 

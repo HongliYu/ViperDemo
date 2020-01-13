@@ -1,0 +1,27 @@
+import UIKit
+
+final class {{ module_info.name }}ModuleBuilder {
+
+    func build() -> UIViewController {
+
+        let viewController = UIStoryboard(name: "Main",
+                                          bundle: nil)
+            .instantiateViewController(withIdentifier: String(describing: {{ module_info.name }}ViewController.self)) as! {{ module_info.name }}ViewController
+	
+        let router = {{ module_info.name }}Router()
+        router.viewController = viewController
+
+        let presenter = {{ module_info.name }}Presenter()
+        presenter.view = viewController
+        presenter.router = router
+
+        let interactor = {{ module_info.name }}Interactor()
+        interactor.output = presenter
+
+        presenter.interactor = interactor
+        viewController.output = presenter
+
+        return viewController
+    }
+
+}
