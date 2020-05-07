@@ -55,6 +55,7 @@
 		F7728F6023C4E91900C3AF7B /* NewsModuleBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7728F5F23C4E91900C3AF7B /* NewsModuleBuilderTests.swift */; };
 		F7728F6223C4EC8500C3AF7B /* NewsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7728F6123C4EC8500C3AF7B /* NewsInteractorTests.swift */; };
 		F7728F6423C4F10500C3AF7B /* NewsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7728F6323C4F10500C3AF7B /* NewsPresenterTests.swift */; };
+		F780C9232464AD4F0056A766 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F780C9222464AD4E0056A766 /* WebKit.framework */; };
 		F7B6727C23C75B9000A582E2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6727B23C75B9000A582E2 /* Article.swift */; };
 		F7B6727E23C75BA100A582E2 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6727D23C75BA100A582E2 /* Source.swift */; };
 		F7B6728023C75F4900A582E2 /* MockArticleDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6727F23C75F4900A582E2 /* MockArticleDataStorage.swift */; };
@@ -162,6 +163,7 @@
 		F7728F5F23C4E91900C3AF7B /* NewsModuleBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModuleBuilderTests.swift; sourceTree = "<group>"; };
 		F7728F6123C4EC8500C3AF7B /* NewsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsInteractorTests.swift; sourceTree = "<group>"; };
 		F7728F6323C4F10500C3AF7B /* NewsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenterTests.swift; sourceTree = "<group>"; };
+		F780C9222464AD4E0056A766 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F7B6727B23C75B9000A582E2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		F7B6727D23C75BA100A582E2 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		F7B6727F23C75F4900A582E2 /* MockArticleDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleDataStorage.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F780C9232464AD4F0056A766 /* WebKit.framework in Frameworks */,
 				833220831026A3733FE31B53 /* Pods_ViperDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +370,7 @@
 		C892A78AE6D9CA1E635AC802 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F780C9222464AD4E0056A766 /* WebKit.framework */,
 				70AA491D2B94AF75437E0CCA /* Pods_ViperDemo.framework */,
 				B3E44EE5B7D092CCE2BE15D9 /* Pods_ViperDemoTests.framework */,
 				0236D40CD3625DD2FE981B6A /* Pods_ViperDemoUITests.framework */,
