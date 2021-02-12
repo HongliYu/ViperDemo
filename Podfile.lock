@@ -1,16 +1,16 @@
 PODS:
-  - SwiftGen (6.1.0)
-  - SwiftLint (0.38.2)
-  - XCTest-Gherkin (0.19.1):
-    - XCTest-Gherkin/Core (= 0.19.1)
-  - XCTest-Gherkin/Core (0.19.1)
-  - XCTest-Gherkin/Native (0.19.1):
+  - SwiftGen (6.3.0)
+  - SwiftLint (0.40.2)
+  - XCTest-Gherkin (0.19.2):
+    - XCTest-Gherkin/Core (= 0.19.2)
+  - XCTest-Gherkin/Core (0.19.2)
+  - XCTest-Gherkin/Native (0.19.2):
     - XCTest-Gherkin/Core
 
 DEPENDENCIES:
-  - SwiftGen (~> 6.1.0)
-  - SwiftLint (~> 0.38.2)
-  - XCTest-Gherkin (~> 0.19.1)
+  - SwiftGen (= 6.3.0)
+  - SwiftLint (= 0.40.2)
+  - XCTest-Gherkin (~> 0.19.2)
   - XCTest-Gherkin/Native
 
 SPEC REPOS:
@@ -20,10 +20,10 @@ SPEC REPOS:
     - XCTest-Gherkin
 
 SPEC CHECKSUMS:
-  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
-  SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
-  XCTest-Gherkin: f7cb7e6407a9196fdef068aed0becc321ef0b812
+  SwiftGen: 3d5024a47ea79e408cded20763d7a17d18a4548c
+  SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
+  XCTest-Gherkin: 835528872811b20918ec37cc1cfff1f88c838450
 
-PODFILE CHECKSUM: cf50bb9f8bfdc97ea96c9cf2e72b6a58e96ea554
+PODFILE CHECKSUM: 874b9905344001d253bc4e87d4c5e862e02fb7d1
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

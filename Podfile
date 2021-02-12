@@ -1,10 +1,12 @@
-platform :ios, '11.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '13.0'
 use_frameworks!
 inhibit_all_warnings!
 
 def shared_pods
-  pod 'SwiftLint', "~> 0.38.2"
-  pod 'SwiftGen', '~> 6.1.0'
+  pod 'SwiftLint', "0.40.2"
+  pod 'SwiftGen', '6.3.0'
 end
 
 target 'ViperDemo' do
@@ -27,7 +29,7 @@ end
 target 'ViperDemoUITests' do
   inherit! :search_paths
   shared_pods
-  pod 'XCTest-Gherkin', "~> 0.19.1"
+  pod 'XCTest-Gherkin', "~> 0.19.2"
   pod 'XCTest-Gherkin/Native'
 
 end
